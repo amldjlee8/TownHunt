@@ -33,7 +33,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     let filePath = NSHomeDirectory() + "/Documents/" + "MITPack.txt"
     
     override func viewDidLoad() {
- 
+        
         resetGame()
         
         UIApplication.sharedApplication().idleTimerDisabled = true
